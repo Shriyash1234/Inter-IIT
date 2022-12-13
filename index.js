@@ -4,7 +4,7 @@ const app = express();
 app.use("/assests",express.static("assests"))
 app.set("view engine","ejs");
 require('https').globalAgent.options.rejectUnauthorized = false;
-const photo = require('./Name_inter_IIT.json')
+const photo = require('./Name_Inter_IIT.json')
 
 app.get("/",function(req,res){
     res.render("index",{photo:photo})
