@@ -1,0 +1,15 @@
+{
+  "name": "inter-iit",
+  "version": "1.0.0",
+  "description": "Website for inter IIT sports meet 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shriyash Mandavekar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
