@@ -12,6 +12,6 @@ app.get("/",function(req,res){
 )
 let port = process.env.PORT;
 if(port==null||port==""){
-  port = 600
+  port = 700
 }
 app.listen(port);

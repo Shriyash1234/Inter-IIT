@@ -61,5 +61,10 @@ jQuery(document).ready(function($) {
           $(this).toggleClass("active");
           $(".overlay-menu").toggleClass("open");
         });
+        $(".link").click(function() {
+          $(".menu-icon").toggleClass("active");
+          $(".overlay-menu").toggleClass("open");
+        });
+
 
 });
